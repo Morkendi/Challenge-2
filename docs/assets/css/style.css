@@ -73,29 +73,29 @@ header a {
 }
 
 .full-block {
-    display: inline-flex;
+    display: flex;
     padding: 15px;
 }
 
 .section-title {
+    border-right: 3px solid var(--blue-text);
     padding-right: 20px;
     font-size: 45px;
     text-align: right;
 }
 
-#text {
-    border-left: 3px solid var(--blue-text);
+#intro {
     width: 100%;
     padding-left: 50px;
 }
 
-
-.showcase {
-    border-left: 3px solid var(--blue-text);
+.big-project {
+    position: relative;
+    text-align: center;
     padding-left: 50px;
 }
 
-.showcase p{
+.big-project p {
     position: absolute;
     font-size: 25px;
     bottom: 25px;
@@ -104,39 +104,52 @@ header a {
     background-color: var(--aqua);
 }
 
-.big-project {
-    position: relative;
-    text-align: center;
-}
-
 .big-project img {
     border: 3px solid var(--aqua);
-    height: 350px;
-    width: 100%;
     object-fit:cover;
+    max-height: 350px;
+    width: 100%;
 }
 
 .big-project:hover {
     cursor:grab;
 }
 
-.small-project {
-    display: inline-flex;
-    flex-direction: row;
+.showcase {
+    display: flex;
     flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.small-project {
+    padding: 5px;
+    display: inline-flex;
     position: relative;
     text-align: center;
 }
 
+.small-project p{
+    position: absolute;
+    font-size: 25px;
+    bottom: 25px;
+    padding: 10px;
+    color: var(--darkgray);
+    background-color: var(--aqua);
+}
+
 .small-project img {
     border: 3px solid var(--aqua);
-    width: 50%;
+    max-height: 225px;
+    max-width: 100%;
     object-fit: cover;
 }
 
+.small-project:hover {
+    cursor:grab;
+}
+
 .contact-links {
-    border-left: 3px solid var(--blue-text);
-    display: flex;
+    display: inline-flex;
     justify-content: center;
 }
 
