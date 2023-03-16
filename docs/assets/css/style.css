@@ -1,0 +1,152 @@
+:root {
+--darkgray: #2B2F30;
+--aqua: #1EADD3;
+--blue-text: #28437A;
+}
+
+body{
+    color: var(--blue-text);
+    background-color: aliceblue;
+    line-height: 1.25;
+    font-size: 18px;
+}
+
+header {
+    position: relative;
+    background-color: var(--darkgray);
+    height: 80px;
+}
+
+header h1 {
+    position: absolute;
+    display: inline-flex;
+    top: 10px;
+    height: 60px;
+    font-size: 35px;
+    padding: 15px;
+    padding-left: 50px;
+    color: var(--darkgray);
+    background-color: var(--aqua);
+}
+
+nav {
+    float: right;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+nav ul {
+    padding-right: 50px;
+    list-style: none;
+    display: inline-flex;
+}
+
+nav ul li {
+    padding-left: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--aqua);
+    border-bottom: 3px solid var(--aqua);
+}
+
+#cover {
+    position: relative;
+    text-align: center;
+}
+
+.cover {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.subtitle {
+    position: absolute;
+    bottom: 30px;
+    right: 65px;
+    font-size: 35px;
+    padding: 10px;
+    color: var(--darkgray);
+    background-color: var(--aqua);
+}
+
+.full-block {
+    display: inline-flex;
+    padding: 15px;
+}
+
+.section-title {
+    padding-right: 20px;
+    font-size: 45px;
+    text-align: right;
+}
+
+#text {
+    border-left: 3px solid var(--blue-text);
+    width: 100%;
+    padding-left: 50px;
+}
+
+
+.showcase {
+    border-left: 3px solid var(--blue-text);
+    padding-left: 50px;
+}
+
+.showcase p{
+    position: absolute;
+    font-size: 25px;
+    bottom: 25px;
+    padding: 10px;
+    color: var(--darkgray);
+    background-color: var(--aqua);
+}
+
+.big-project {
+    position: relative;
+    text-align: center;
+}
+
+.big-project img {
+    border: 3px solid var(--aqua);
+    height: 350px;
+    width: 100%;
+    object-fit:cover;
+}
+
+.big-project:hover {
+    cursor:grab;
+}
+
+.small-project {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+}
+
+.small-project img {
+    border: 3px solid var(--aqua);
+    width: 50%;
+    object-fit: cover;
+}
+
+.contact-links {
+    border-left: 3px solid var(--blue-text);
+    display: flex;
+    justify-content: center;
+}
+
+.contact-links li {
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.contact-links a {
+    color: var(--blue-text);
+    text-decoration: none;
+}
