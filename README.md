@@ -21,7 +21,6 @@ Inside the "Contact me" section, the user can select any of the link in order to
 ## Credits
 
 - Code by: Daniel Sanchez (https://github.com/Morkendi)
-- Code assistance bt: Marco Monter (Bootcamp TA)
 
 ## Links
 - Link to GitHub Pages: https://morkendi.github.io/challenge-2/
