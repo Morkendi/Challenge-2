@@ -1,4 +1,4 @@
-# Code Refactor Starter Code
+# Personal Portfolio
 
 ## Description
 This project was created in order to create a personal portfolio, with the intention of using it as a template and upgrading it with time. The goal of the project is to practice with advanced CSS elements to make a wepage more interactive.
