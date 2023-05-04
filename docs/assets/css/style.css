@@ -4,36 +4,15 @@
 --blue-text: #28437A;
 }
 
-body{
-    color: var(--blue-text);
+
+
+/* body{
     background-color: aliceblue;
     line-height: 1.25;
     font-size: 18px;
 }
 
-header {
-    position: relative;
-    background-color: var(--darkgray);
-    height: 80px;
-}
 
-header h1 {
-    position: absolute;
-    display: inline-flex;
-    top: 10px;
-    height: 60px;
-    font-size: 35px;
-    padding: 15px;
-    padding-left: 50px;
-    color: var(--darkgray);
-    background-color: var(--aqua);
-}
-
-nav {
-    float: right;
-    padding-top: 30px;
-    font-size: 20px;
-}
 
 nav ul {
     padding-right: 50px;
@@ -111,11 +90,8 @@ header a {
     width: 100%;
 }
 
-.big-project:hover {
-    cursor:grab;
-}
 
-.showcase {
+#projects {
     display: flex;
     flex-wrap: wrap;
     padding-left: 50px;
@@ -123,8 +99,7 @@ header a {
 
 .small-project {
     padding: 5px;
-    display: inline-flex;
-    position: relative;
+    height: 225px;
     text-align: center;
 }
 
@@ -139,8 +114,6 @@ header a {
 
 .small-project img {
     border: 3px solid var(--aqua);
-    max-height: 225px;
-    max-width: 100%;
     object-fit: cover;
 }
 
@@ -149,8 +122,9 @@ header a {
 }
 
 .contact-links {
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .contact-links li {
@@ -161,5 +135,4 @@ header a {
 
 .contact-links a {
     color: var(--blue-text);
-    text-decoration: none;
-}
+} */
