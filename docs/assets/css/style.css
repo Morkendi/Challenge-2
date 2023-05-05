@@ -4,44 +4,57 @@
 --blue-text: #28437A;
 }
 
-
-
-/* body{
-    background-color: aliceblue;
-    line-height: 1.25;
-    font-size: 18px;
-}
-
-
-
-nav ul {
-    padding-right: 50px;
-    list-style: none;
-    display: inline-flex;
-}
-
-nav ul li {
-    padding-left: 25px;
-}
-
-header a {
+*{
     text-decoration: none;
+    color: var(--blue-text);
+}
+
+header {
+    background-color: var(--darkgray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+header h1 {
+    background-color: var(--aqua);
+    color: var(--darkgray);
+    height: 60px;
+    font-size: 35px;
+    padding: 15px;
+    padding-left: 50px;
+}
+
+#navi {
+    display: flex;
+    font-size: 20px;
+}
+
+#navi p {
     color: var(--aqua);
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 15px;
+    padding-right: 35px;
     border-bottom: 3px solid var(--aqua);
 }
 
-#cover {
+#navi a{
+    color: var(--aqua);
+}
+
+main {
+    font-size: 18px;
+    background-color: aliceblue;
+    line-height: 1.25;
+}
+
+#sub-header {
     position: relative;
-    text-align: center;
 }
 
-.cover {
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.subtitle {
+#subtitle {
     position: absolute;
     bottom: 30px;
     right: 65px;
@@ -51,7 +64,118 @@ header a {
     background-color: var(--aqua);
 }
 
-.full-block {
+#cover {
+    height: 200px;
+    width: 100vw;
+    object-fit: cover;
+}
+
+#intro {
+    display: flex;
+    align-items: center;
+}
+
+#about-me,
+#work,
+#contact {
+    width: 20vw;
+    font-size: 30px;
+    color: var(--blue-text);
+    text-align: right;
+    align-items: center;
+    border-right: var(--blue-text) solid 3px ;
+}
+
+#intro p {
+    width: 100%;
+    padding-left: 50px;
+}
+
+#my-projects {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+
+#project-display {
+    width: 100%;
+    padding-left: 50px;
+}
+
+#main-project {
+    position: relative;
+    align-items: center;
+}
+
+#main-project p {
+    position: absolute;
+    font-size: 25px;
+    bottom: 25px;
+    padding: 10px;
+    color: var(--darkgray);
+    background-color: var(--aqua);
+}
+
+#main-project img {
+    height: auto;
+    width: auto;
+    width: 60vw;
+    object-fit: cover;
+    border: 5px solid var(--aqua);
+}
+
+#secon-projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#prj-1,
+#prj-2,
+#prj-3,
+#prj-4 {
+    position: relative;
+}
+
+#prj-1 p,
+#prj-2 p,
+#prj-3 p,
+#prj-4 p{
+    position: absolute;
+    font-size: 25px;
+    bottom: 25px;
+    padding: 10px;
+    color: var(--darkgray);
+    background-color: var(--aqua);
+}
+
+#secon-projects img {
+    height: 350px;
+    width: 20vw;
+    object-fit: cover;
+    border: 5px solid var(--aqua);
+}
+
+#secon-projects li {
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#contact-links {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#contact-links li {
+    padding: 0px 25px;
+}
+/* .full-block {
     display: flex;
     padding: 15px;
 }
@@ -61,18 +185,9 @@ header a {
     padding-right: 20px;
     font-size: 45px;
     text-align: right;
-}
 
-#intro {
-    width: 100%;
-    padding-left: 50px;
-}
 
-.big-project {
-    position: relative;
-    text-align: center;
-    padding-left: 50px;
-}
+
 
 .big-project p {
     position: absolute;
@@ -83,12 +198,6 @@ header a {
     background-color: var(--aqua);
 }
 
-.big-project img {
-    border: 3px solid var(--aqua);
-    object-fit:cover;
-    max-height: 350px;
-    width: 100%;
-}
 
 
 #projects {
@@ -135,4 +244,4 @@ header a {
 
 .contact-links a {
     color: var(--blue-text);
-} */
+} */ 
