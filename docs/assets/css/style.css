@@ -80,6 +80,7 @@ main {
 #contact {
     width: 20vw;
     font-size: 30px;
+    padding-right: 15px;
     color: var(--blue-text);
     text-align: right;
     align-items: center;
@@ -101,11 +102,13 @@ main {
 #project-display {
     width: 100%;
     padding-left: 50px;
+    border: 3px red solid;
 }
 
 #main-project {
     position: relative;
     align-items: center;
+    flex-grow: 1;
 }
 
 #main-project p {
@@ -128,7 +131,7 @@ main {
 #secon-projects {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    flex-grow: 2;
 }
 
 #prj-1,
