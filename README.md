@@ -14,7 +14,7 @@ Inside the "Contact me" section, the user can select any of the link in order to
 
 ## Mock-Up
 
-![Screenshot of finished webpage](./docs/assets/images/screenshot.png)
+![Screenshot of finished webpage](./docs/assets/images/Screenshot.png)
 
 --- 
 
